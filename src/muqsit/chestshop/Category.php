@@ -23,7 +23,7 @@ class Category{
 		$this->name = $name;
 		$this->identifier = $identifier;
 
-		$this->menu = InvMenu::create(InvMenu::TYPE_DOUBLE_CHEST);
+		$this->menu = InvMenu::create(InvMenu::HOPPER_BLOCK);
 
 		$this->menu
 			->readonly()
