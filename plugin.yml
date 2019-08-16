@@ -3,8 +3,8 @@ main: muqsit\chestshop\ChestShop
 api: 3.0.0
 version: 4
 commands:
-  chestshop:
-    aliases: ["cs", "cshop"]
+  blackmarket:
+    aliases: ["cs", "bmarket"]
 permissions:
   chestshop.command.opcmd:
     default: op
