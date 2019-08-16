@@ -51,7 +51,7 @@ class ChestShop extends PluginBase{
 			InvMenuHandler::register($this);
 		}
 
-		$this->menu = InvMenu::create(InvMenu::TYPE_CHEST);
+		$this->menu = InvMenu::create(InvMenu::HOPPER_BLOCK);
 		$this->menu
 			->readonly()
 			->setName("Choose A Category...")
